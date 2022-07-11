@@ -1,1 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #F7D354;
+    transition: .5s;
+}
+
+a:hover {
+    color: #b8930c;
+}
