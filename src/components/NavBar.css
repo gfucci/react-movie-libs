@@ -33,6 +33,7 @@
     align-items: center;
     cursor: pointer;
     transition: .3s;
+    border-radius: 4px;
 }
 
 .navbar form button:hover {
