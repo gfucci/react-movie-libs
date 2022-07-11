@@ -46,7 +46,7 @@ const Movie = () => {
   }
 
   return (
-    <div>
+    <div className="movie_page">
       {movie &&
        <>
         <MovieCard movie={movie} showLink={false} />
@@ -69,7 +69,7 @@ const Movie = () => {
           </h3>
           <p>{movie.runtime}</p>
         </div>
-        <div className="info">
+        <div className="info description">
           <h3>
             <BsFillFileEarmarkTextFill /> Descrição:
           </h3>
